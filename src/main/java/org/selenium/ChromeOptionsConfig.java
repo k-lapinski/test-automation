@@ -10,7 +10,6 @@ public class ChromeOptionsConfig {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("test-type");
         options.addArguments("--window-size=1920,1080");
-        options.addArguments("--start-maximized");
         options.addArguments("--enable-precise-memory-info");
         options.addArguments("--disable-popup-blocking");
         options.addArguments("--disable-default-apps");

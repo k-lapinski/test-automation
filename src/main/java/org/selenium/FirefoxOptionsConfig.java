@@ -9,7 +9,6 @@ public class FirefoxOptionsConfig {
         String headless = new BrowserConfig().getHeadless();
         FirefoxOptions options = new FirefoxOptions();
         options.addArguments("test-type");
-        options.addArguments("--start-maximized");
         options.addArguments("--window-size=1920,1080");
         options.addArguments("--enable-precise-memory-info");
         options.addArguments("--disable-popup-blocking");
